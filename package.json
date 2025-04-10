@@ -6,17 +6,34 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "codegen": "graphql-codegen"
   },
   "dependencies": {
+    "@apollo/client": "^3.13.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@graphql-codegen/typescript-react-apollo": "^4.3.2",
+    "@mui/icons-material": "^6.4.4",
+    "@mui/material": "^6.4.4",
+    "@supabase/supabase-js": "^2.48.1",
+    "apollo-link-persisted-queries": "^0.2.5",
+    "graphql": "^16.10.0",
+    "js-yaml": "^4.1.0",
+    "next": "15.1.7",
+    "punycode": "^2.3.1",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.7"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@graphql-codegen/cli": "^5.0.5",
+    "@graphql-codegen/import-types-preset": "^3.0.0",
+    "@graphql-codegen/typescript": "^4.1.6",
+    "@graphql-codegen/typescript-apollo-client-helpers": "^3.0.0",
+    "@graphql-codegen/typescript-operations": "^4.6.0",
     "@types/node": "^20",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "typescript": "^5"
   }
 }
