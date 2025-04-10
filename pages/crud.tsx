@@ -6,7 +6,7 @@ import {
   CREATE_ORDER,
   DELETE_ORDER,
   GET_ORDERS,
-  GET_TOTAL_ORDER_PRICE,
+  // GET_TOTAL_ORDER_PRICE,
   UPDATE_ORDER,
 } from "../src/graphQl/queries/ordersQueries";
 import { useCreateOrderMutation, useGetOrdersQuery } from "@/src/hooks/hook";
@@ -52,7 +52,7 @@ export default function OrdersPage() {
   //   loading: priceLoading,
   //   error: priceError,
   //   data: priceData,
-  // } = useQuery(GET_TOTAL_ORDER_PRICE);
+  } = useQuery(GET_TOTAL_ORDER_PRICE);
   // console.log("data:", data);
   // console.log("Error:", error);
   // console.log("da:", da);
