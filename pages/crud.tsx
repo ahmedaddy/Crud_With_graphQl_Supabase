@@ -8,7 +8,7 @@ import {
   GET_ORDERS,
   GET_TOTAL_ORDER_PRICE,
   UPDATE_ORDER,
-} from "./graphQl/quries/ordersQueries";
+} from "../src/graphQl/queries/ordersQueries";
 import { useCreateOrderMutation, useGetOrdersQuery } from "@/src/hooks/hook";
 import { OrdersFragmentFragment } from "@/src/types/queries";
 
